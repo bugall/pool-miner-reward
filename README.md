@@ -6,3 +6,6 @@
 
 ### Build
 - gcc 建议 5.x.x 版本, 因为npm包中有些c的std标准不同, 为了方便部署建议在docker中创建(近期会提供Dockerfile)
+
+-----
+- worker部分的代码 https://github.com/bugall/pool-miner-reward
