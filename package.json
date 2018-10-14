@@ -1,0 +1,40 @@
+{
+  "name": "pool-miner-reward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ali-mns": "^2.6.8",
+    "async": "^2.5.0",
+    "bignumber.js": "^6.0.0",
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "compression": "^1.7.1",
+    "dateformat": "^2.2.0",
+    "dot": "^1.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-vue": "^2.1.0",
+    "express": "^4.16.1",
+    "mysql": "^2.15.0",
+    "node-json-minify": "^1.0.0",
+    "node-watch": "^0.5.5",
+    "nonce": "^1.0.4",
+    "redis": "^2.7.1",
+    "request": "^2.83.0",
+    "sequelize": "^4.39.0",
+    "stratum-pool": "git@github.com:bugall/node-stratum-pool.git",
+    "winston": "^3.0.0-rc1",
+    "winston-daily-rotate-file": "^2.0.0-rc.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
