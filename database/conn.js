@@ -1,5 +1,5 @@
-const Sequelize = 'sequelize';
-const config = '../config';
+const Sequelize = require('sequelize');
+const config = require('../config');
 const database = config.database;
 
 const conn = new Sequelize(database.db, database.username, database.password, {
@@ -10,8 +10,5 @@ const conn = new Sequelize(database.db, database.username, database.password, {
     pool: 10
 });
 
-conn.authenticate()
-  .then(() => console.log('database  success'))
-  .catch((err) => console.log(err.stack));
 
 module.exports = conn;

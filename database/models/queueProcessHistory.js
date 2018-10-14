@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-export default (conn) => conn.define('tb_queue_process_history', ({
+module.exports = (conn) => conn.define('tb_queue_process_history', ({
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,

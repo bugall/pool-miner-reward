@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-export default (conn) => conn.define('tb_block_share_round', ({
+module.exports = (conn) => conn.define('tb_block_share_round', ({
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,

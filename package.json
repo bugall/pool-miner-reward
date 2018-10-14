@@ -25,6 +25,7 @@
     "eslint-plugin-vue": "^2.1.0",
     "express": "^4.16.1",
     "mysql": "^2.15.0",
+    "mysql2": "^1.6.1",
     "node-json-minify": "^1.0.0",
     "node-watch": "^0.5.5",
     "nonce": "^1.0.4",
