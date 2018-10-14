@@ -9,4 +9,6 @@ dbConn.authenticate().then(() => {
     console.log('database  success');
     // start
     return reward.start();
-}).catch((err) => console.log(err.stack));
+}).catch((err) => {
+    console.log(err, '$$$$$$$$$$$$$$$$$$$$$$');
+});

@@ -7,8 +7,10 @@ const conn = new Sequelize(database.db, database.username, database.password, {
     dialect: 'mysql',
     logging: true,
     timezone: '+08:00',
-    pool: 10
+    pool: 10,
+    define: {
+        timestamps: false
+    }
 });
-
 
 module.exports = conn;

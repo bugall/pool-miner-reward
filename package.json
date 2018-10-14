@@ -24,6 +24,7 @@
     "eslint-plugin-standard": "^2.0.1",
     "eslint-plugin-vue": "^2.1.0",
     "express": "^4.16.1",
+    "lodash": "^4.17.11",
     "mysql": "^2.15.0",
     "mysql2": "^1.6.1",
     "node-json-minify": "^1.0.0",
