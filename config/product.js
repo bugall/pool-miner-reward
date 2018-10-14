@@ -26,7 +26,11 @@ module.exports = {
         secretKey: '0PmcaHIejjU7CPV5bWowvacszI1Q3h',
         queueName: 'PoolQueue'
     },
-    mysql: {
-
+    database: {
+        host: 'rm-uf6wi068g51h6wnwa9o.mysql.rds.aliyuncs.com',
+        port: 3306,
+        username: 'root',
+        password: 'HskASTr%$HSS',
+        db: 'pool'
     }
 };
