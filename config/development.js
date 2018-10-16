@@ -24,7 +24,10 @@ module.exports = {
         accountId: '1232343283010740',
         accessId: 'LTAIYRJChzRtWw0B',
         secretKey: '0PmcaHIejjU7CPV5bWowvacszI1Q3h',
-        queueName: 'PoolQueue'
+        queues: {
+            common: 'PoolQueue',
+            pay: 'PoolPay'
+        }
     },
     database: {
         host: 'rm-uf6wi068g51h6wnwa9o.mysql.rds.aliyuncs.com',
