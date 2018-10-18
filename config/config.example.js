@@ -26,6 +26,7 @@ module.exports = {
         secretKey: '',
         queues: {
             common: '',
+            confirm: '',
             pay: ''
         }
     },
